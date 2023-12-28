@@ -11,5 +11,12 @@ public class CoversorDeTemperatura {
         return this.tempCelsius*1.8 + 32;
     }
 
+    //Developer Console
+    ConversorDeTemperatura cTcF = new ConversorDeTemperatura();
+    Double celsius = 23;
+    cTcF.tempFahrenheit(celsius);
+    Double resultado = cTcF.tempFahrenheit();
+    system.debug('Temperatura em Celsius de' + celsius ' equivale à ' + resultado);
+
 
 }
