@@ -1,6 +1,6 @@
 //Salvar os codigos da P1 e P2
 
-/*ANONYMOUS
+//ANONYMOUS
 List<Account> contas =[SELECT Id, Name, Phone FROM Account Where Name LIKE
                       'Acme%' AND phone = null LIMIT 2];
 
@@ -12,5 +12,5 @@ for (Database.DeleteResult r: dr){
         System.debug('Registro ' + r.Id + ' Excluido com sucesso');
     }
 }
-*/
+
 
