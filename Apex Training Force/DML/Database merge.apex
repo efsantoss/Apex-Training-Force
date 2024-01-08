@@ -20,3 +20,5 @@ Database.MergeResult mr = Database.merge(master, merged);
 contas []
 
 //Parte 3
+Database.rollback(sp);
+System.debug('SELECT apos o rollback');
